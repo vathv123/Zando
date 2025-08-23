@@ -1982,7 +1982,7 @@ function showItemDetail(index, event) {
     </div>
     <div class="w-full moreContainer bg-[#f0f0f0ae] relative flex flex-col p-6 gap-[12px] items-start justify-center font-normal" style="border-bottom: 1px solid #A0A1A4">
       <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="absolute right-4 top-4 cursor-pointer arrowInfo" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"></path></svg>
-      <p class="font-bold text-[1rem] font-[fm]  absolute top-0 hovering" style="margin-top: 10px">Product details</p>
+      <p class="font-bold text-[1rem] font-[fm]  absolute top-0 hovering" style="margin-top: 10px">More info</p>
       <div class="text-[0.8rem] hidden mt-12 wrapItem4 flex-col gap-[30px]">
         <p>Online exchange policy</p>
       </div>
@@ -2322,7 +2322,8 @@ function showItemDetail(index, event) {
           renderBag();
         });
       });
-      const containers = document.querySelectorAll(".moreContainer");
+    }
+     const containers = document.querySelectorAll(".moreContainer");
     const Itemcontainers = document.querySelectorAll(".wrapItem");
     const arrows = document.querySelectorAll(".arrowInfo");
     const toggledStates = [];
@@ -2396,7 +2397,6 @@ function showItemDetail(index, event) {
       });
     });
 
-    }
 
 
     sizeSet.forEach((sizeBtn) => {
